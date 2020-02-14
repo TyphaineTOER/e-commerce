@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background: #ccc;
+  }
+  .navigation > li {
+    position: relative;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    flex:1;
+    z-index: 1;
+  }
+  .navigation a {
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    background: darksalmon;
+    color: antiquewhite;
+  }
+  .navigation>li:hover>a {
+    background: darksalmon;
+  }
+  
+  .navigation ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+  }
+  .navigation>li:hover ul {
+    display: block;
+  }
+  .navigation ul a {
+    background: darksalmon;
+  }
+  .navigation ul a:hover {
+    background: tan;
+  }
+  .bloc {
+    padding-top:50px;
+  }
+  
+  
+  
+  
+  .navigationLine {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background: #ccc;
+  }
+  .navigationLine li {
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    flex:1;
+  }
+  .navigationLine a {
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #5CA2FF;
+    color: #fff;
+  }
+  .navigationLine>li:hover>a {
+    background: #323232;
+  }
+  
+  .navigationLine ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left:0;
+  }
+  .navigationLine>li:hover ul {
+    display: flex;
+  }
+  .navigationLine ul a {
+    background: darksalmon;
+  }
+  .navigationLine ul a:hover {
+    background: sienna;
+  }

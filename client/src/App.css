@@ -1,0 +1,54 @@
+:root {
+
+--DARKSALMON: #E9967A;
+--ANTIQUEWHITE: #FAEBD7;
+--LIGHTSALMON: #FFA07A;
+--SIENNA: #A0522D;
+--mainBlue: #2a2a72;
+--lightBlue: #009ffd;
+--mainWhite: #f3f3f3;
+--mainDark: #232528;
+--mainYellow: #ffa400;
+--TAN: #D2B48C;
+}
+
+body {
+    font-family: 'Muli', sans-serif !important; 
+    background: white;
+    color: var(--SIENNA) !important;
+}
+
+.text-title {
+    font-family: 'Candal', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.text-blue {
+    color: var(--DARKSALMON);
+}
+
+.text-bright {
+    color: var(--mainBlue);
+}
+.btn-black{
+
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: var(--mainDark);
+    border-radius: 0 !important;
+    border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+    background: var(--mainDark);
+    color: var(--mainWhite);
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color:var(--TAN);
+}
+
